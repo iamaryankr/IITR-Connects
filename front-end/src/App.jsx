@@ -5,8 +5,6 @@ import { useRecoilValue } from "recoil";
 import userAtom from "./atoms/userAtom";
 import HeaderComponent from "./components/Header";
 import { paths as pathconfig } from "./assets/contants/paths";
-import ParticlesBg from 'particles-bg'
-
 
 
 export const App = () => {
@@ -24,7 +22,7 @@ export const App = () => {
 
 	return (
 		<Box position={"relative"} w='full'>
-			{/* <ParticlesBg type="cobweb" bg={true} /> */}
+		
 			<Container maxW={pathname === "/" ? { base: "620px", md: "1200px" } : "620px"}>
 				<HeaderComponent />
 				<Routes>
