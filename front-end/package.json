@@ -1,5 +1,5 @@
 {
-  "name": "front-end",
+  "name": "frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,7 +17,6 @@
     "backend": "file:..",
     "date-fns": "^2.30.0",
     "framer-motion": "^10.12.21",
-    "iitrconnects": "file:..",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
@@ -33,6 +32,6 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
-    "vite": "^5.3.1"
+    "vite": "^4.4.0"
   }
 }
